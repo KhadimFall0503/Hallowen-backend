@@ -8,7 +8,7 @@ from api.views import CandiesViewSet, DecorationsViewSet
 
 # Crée un seul routeur et enregistre les deux ViewSets dessus
 router = DefaultRouter()
-router.register('candies', CandiesViewSet, basename='candies')
+router.register('products', CandiesViewSet, basename='products')
 router.register('decorations', DecorationsViewSet, basename='decorations')
 
 urlpatterns = [
